@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moosic Player</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--********** Navbar ***********-->
+
+    <!--********** Left Navbar ***********-->
+    <div id="nav1">
+        <div id="left-nav">
+            <i class="fab fa-napster animate__animated animate__pulse"></i>
+            <a href="#" id="fav">Favourites</a>
+        </div>
+        
+            <!--********** Right Dropdown Navbar ***********-->
+            <i id="right-nav-menu" class="fas fa-bars">
+                <div id="dropdown-right-nav">
+                    <div id="dropdown-profile-img"></div>
+                    <div id="dropdown-search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search">
+                        <i id="drop-mic"class="fas fa-microphone"></i>
+                    </div>
+                </div>
+            </i>
+            <!--********** Right Dropdown Navbar End ***********-->
+
+            <!--********** Right Navbar ***********-->
+        <div class="right-nav">
+            <div id="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+                <i class="fas fa-microphone"></i>
+            </div>
+            <i id="bell" class="fas fa-bell"></i>
+            <div id="profile-img"></div>
+        </div>
+    </div>
+
+
+    <main>
+        <!--********** Aside 1 ***********-->
+        <div id="aside1" class="aside">
+
+            <!--********** Carousel ***********-->
+
+            <div class="carousel">
+                <img id="img1" src="images/car1.jpg" alt="caraousel-image">
+                <img id="img2" src="images/car2.jpg" alt="caraousel-image">
+                <img id="img3" src="images/car3.jpg" alt="caraousel-image">
+            </div>
+
+            <!--********** Latest Release Section ***********-->
+
+            <div id="latest-release-section">
+                <h1 id="latest-release-heading">Latest Release</h1>
+
+                <!--********** Latest Release Cards ***********-->
+                
+                <div id="latest-release-cards">
+                    <!--********** Latest Release Card 1 ***********-->
+                    <div class="card card1">
+                        <a class="play-icon" href="#footer">
+                            <img
+                                src="images/starboyy.jpg" alt="starboy">
+                            <i class="latest-release-icon fas fa-play"></i>
+                        </a>
+                        <div class="name-date">
+                            <h1>
+                                Starboy
+                            </h1>
+                            <h2>
+                                May 30, 2002
+                            </h2>
+                        </div>
+                        <div class="menu-duration">
+                            <div class="song-menu">
+                                <i class="fas fa-ellipsis-h"></i>
+
+                                <!-- ---------------Dropdown menu ----------------->
+
+                                <div class="dot-menu">
+                                    <ul class="list">
+                                        <li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get
+                                                info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- ---------------Song Duration ----------------->
+
+                            <h2>
+                                4:12
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!--********** Latest Release Card 2 ***********-->
+                    <div class="card card2">
+                        <a class="play-icon" href="#footer">
+                            <img
+                            src="images/starboyy.jpg" alt="starboy">
+                            <i class="latest-release-icon fas fa-play"></i>
+                        </a>
+                        <div class="name-date">
+                            <h1>
+                                Starboy
+                            </h1>
+                            <h2>
+                                May 30, 2002
+                            </h2>
+                        </div>
+                        <div class="menu-duration">
+                            <div class="song-menu">
+                                <i class="fas fa-ellipsis-h"></i>
+
+                                <!-----------------Dropdown menu ----------------->
+
+                                <div class="dot-menu">
+                                    <ul class="list">
+                                        <li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get
+                                                info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- ---------------Song Duration ----------------->
+
+                            <h2>
+                                4:12
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!--********** Latest Release Card 3 ***********-->
+
+                    <div class="card card3">
+                        <a class="play-icon" href="#footer">
+                            <img
+                            src="images/starboyy.jpg" alt="starboy">
+                            <i class="latest-release-icon fas fa-play"></i>
+                        </a>
+                        <div class="name-date">
+                            <h1>
+                                Starboy
+                            </h1>
+                            <h2>
+                                May 30, 2002
+                            </h2>
+                        </div>
+                        <div class="menu-duration">
+                            <div class="song-menu">
+                                <i class="fas fa-ellipsis-h"></i>
+
+                                <!-- ---------------Dropdown menu ----------------->
+
+                                <div class="dot-menu">
+                                    <ul class="list">
+                                        <li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get
+                                                info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- ---------------Song Duration ----------------->
+
+                            <h2>
+                                4:12
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!--********** Latest Release Card 4 ***********-->
+
+                    <div class="card card4">
+                        <a class="play-icon" href="#footer">
+                            <img
+                            src="images/starboyy.jpg" alt="starboy">
+                            <i class="latest-release-icon fas fa-play"></i>
+                        </a>
+                        <div class="name-date">
+                            <h1>
+                                Starboy
+                            </h1>
+                            <h2>
+                                May 30, 2002
+                            </h2>
+                        </div>
+                        <div class="menu-duration">
+                            <div class="song-menu">
+                                <i class="fas fa-ellipsis-h"></i>
+
+                                <!-- ---------------Dropdown menu ----------------->
+                                <div class="dot-menu">
+                                    <ul class="list">
+                                        <li><a class="link" href=""><i class="fas fa-play"></i> Play Now</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-heart"></i> Add to Favourites</a>
+                                        </li>
+                                        <hr>
+                                        <li><a class="link" href=""><i class="fas fa-exclamation-circle"></i> Get
+                                                info</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ---------------Song Duration ----------------->
+                            <h2>
+                                4:12
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--********** Popular Artists Section ***********-->
+
+            <div id="popular-artists-section">
+
+                <!--********** Popular Artists Heading ***********-->
+
+                <h1 id="artist-heading">Popular Artists</h1>
+                <div id="artist-content">
+
+                    <!--********** Popular Artists 1 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/weeknd.jpg" alt="the weeknd"></a>
+                        <h2 class="artist-name">The Weeknd</h2>
+                    </div>
+
+                    <!--********** Popular Artists 2 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/camila.jpg" alt="camila cabello"></a>
+                        <h2 class="artist-name">Camila Cabello</h2>
+                    </div>
+
+                    <!--********** Popular Artists 3 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/shawn.jpg" alt="shawn mendes"></a>
+                        <h2 class="artist-name">Shawn Mendes</h2>
+                    </div>
+
+                    <!--********** Popular Artists 4 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/arianag.jpg" alt="ariana grande"></a>
+                        <h2 class="artist-name">Ariana Grande</h2>
+                    </div>
+
+                    <!--********** Popular Artists 5 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/bruno.jpg" alt="bruno mars"></a>
+                        <h2 class="artist-name">Bruno Mars</h2>
+                    </div>
+
+                    <!--********** Popular Artists 6 ***********-->
+                    <div class="artist">
+                        <a href="index2.html"><img
+                                src="images/charlieputh.jpg" alt="charlie puth"></a>
+                        <h2 class="artist-name">Charlie Puth</h2>
+                    </div>
+
+                </div>
+            </div>
+            <!--********** Mood Section ***********-->
+
+            <div id="mood-section">
+
+                <!--********** Mood Main Pic ***********-->
+                <div id="mood-main">
+                </div>
+
+                <!--********** Mood Love ***********-->
+                <div>
+                    <div id="mood-1" class="mood-pic"></div>
+                    <p>LOVE</p>
+                </div>
+
+                <!--********** Mood Retro ***********-->
+                <div>
+                    <div id="mood-2" class="mood-pic"></div>
+                    <p>RETRO</p>
+                </div>
+
+                <!--********** Mood Chill ***********-->
+                <div>
+                    <div id="mood-3" class="mood-pic"></div>
+                    <p>CHILL</p>
+                </div>
+
+                <!--********** Mood Rock ***********-->
+                <div>
+                    <div id="mood-4" class="mood-pic"></div>
+                    <p>ROCK</p>
+                </div>
+
+                <!--********** Mood Pop ***********-->
+                <div>
+                    <div id="mood-5" class="mood-pic"></div>
+                    <p>POP</p>
+                </div>
+
+                <!--********** Mood Romantic ***********-->
+                <div>
+                    <div id="mood-6" class="mood-pic"></div>
+                    <p>ROMANTIC</p>
+                </div>
+            </div>
+
+            <!--********** Music Theme Section ***********-->
+
+            <div id="music-theme-section">
+                <div>
+                    <div id="theme-1" class="music-theme"></div>
+                    <p>PARTY</p>
+                </div>
+
+                <div>
+                    <div id="theme-2" class="music-theme"></div>
+                    <p>ELECTRONIC</p>
+                </div>
+
+                <div>
+                    <div id="theme-3" class="music-theme"></div>
+                    <p>ROADTRIP</p>
+                </div>
+            </div>
+
+            <!--********** Latest English Section ***********-->
+
+            <div id="latest-english-section">
+
+                <!--********** Latest English Heading ***********-->
+
+                <h1 id="english-heading">Latest English</h1>
+
+                <!--********** Latest English Songs ***********-->
+
+                <div id="english-content">
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/blindingllights.jpg" alt="blinding lights"></a>
+                        <div class="eng-name">Blinding Lights</div>
+                        <span class="eng-date">Nov 29, 2019</span>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/twoofus.jpg" alt="two of us"></a>
+                        <div class="eng-name">Two of Us</div>
+                        <span class="eng-date">May 16, 2019</span>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/twil.jpg" alt="thats what i like"></a>
+                        <div class="eng-name">That's What I Like</div>
+                        <span class="eng-date">Nov 16, 2016</span>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/s2u.jpg" alt="somebody to you"></a>
+                        <div class="eng-name">Somebody To You</div>
+                        <span class="eng-date">Sep 14, 2018</span>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/ss.jpg" alt="suicide squad"></a>
+                        <div class="eng-name">Heathens</div>
+                        <span class="eng-date">Jun 22, 2016</span>
+                    </div>
+                    <div class="eng">
+                        <a href=""><img
+                                src="images/youngblood.jpg" alt="youngblood"></a>
+                        <div class="eng-name">Youngblood</div>
+                        <span class="eng-date">Aug 2, 2018</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--********** Latest Hindi Section ***********-->
+
+            <div id="latest-hindi-section">
+
+                <!--********** Latest Hindi Heading ***********-->
+
+                <h1 id="hindi-heading">Latest Hindi</h1>
+
+                <!--********** Latest Hindi Songs ***********-->
+
+                <div id="hindi-content">
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/ranjha.jpg" alt="ranjha"></a>
+                        <div class="hin-name">Ranjha</div>
+                        <span class="hin-date">Aug 5, 2021</span>
+                    </div>
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/mabelle.jpg" alt="ma belle"></a>
+                        <div class="hin-name">Ma Belle</div>
+                        <span class="hin-date">Jul 16, 2021</span>
+                    </div>
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/rl.jpg" alt="raatan lambiyan"></a>
+                        <div class="hin-name">Raatan Lambiyan</div>
+                        <span class="hin-date">Jul 30, 2021</span>
+                    </div>
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/shayad.jpg" alt="shayad"></a>
+                        <div class="hin-name">Shayad</div>
+                        <span class="hin-date">Jan 22, 2020</span>
+                    </div>
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/khairiyat.jpg" alt="khairiyat"></a>
+                        <div class="hin-name">Khairiyat</div>
+                        <span class="hin-date">Sep 8, 2019</span>
+                    </div>
+                    <div class="hin">
+                        <a href=""><img
+                                src="images/jaan.jpg" alt="jaan 'nisaar"></a>
+                        <div class="hin-name">Jaan 'Nisaar</div>
+                        <span class="hin-date">Nov 8, 2018</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--********** Aside 2 Section ***********-->
+
+        <div id="aside2" class="aside">
+            <div id="aside2-header">
+                <!--********** Queue Heading ***********-->
+                <span id="aside2-name">Queue</span>
+                <span id="queue-button">Queue <i id="queue-icon" class="fas fa-chevron-down"></i>
+                    <!-- Queue dropdown -->
+                    <div class="queue-content">
+                        <ul>
+                            <li>
+                                <a href="">Playlists</a>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="">Favourite songs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </span>
+
+            </div>
+
+            <!--********** Queue Songs ***********-->
+
+            <div id="song-queue">
+                <div class="queue-card">
+                    <span>01</span>
+                    <img
+                        src="images/youngblood.jpg" alt="youngblood">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>02</span>
+                    <img
+                        src="images/ranjha.jpg" alt="ranjha">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>03</span>
+                    <img
+                        src="images/tnhmb.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>04</span>
+                    <img
+                        src="images/uptownfunk.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>05</span>
+                    <img
+                        src="images/twoofus.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>06</span>
+                    <img
+                        src="images/rapgod.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>07</span>
+                    <img
+                        src="images/rl.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>08</span>
+                    <img
+                        src="images/shayad.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>09</span>
+                    <img
+                        src="images/s2u.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>10</span>
+                    <img
+                        src="images/hateme.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>11</span>
+                    <img
+                        src="images/starboyy.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>12</span>
+                    <img
+                        src="images/twil.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+
+                <div class="queue-card">
+                    <span>13</span>
+                    <img
+                        src="images/foryou.jpg" alt="rl">
+                    <div class="queue-song-info">
+                        <span class="queue-song-name">Youngblood</span>
+                        <span class="queue-song-singer">5 SOS</span>
+                    </div>
+                    <i class="far fa-heart heart-icon"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--********** Footer ***********-->
+
+    <section id="footer">
+        
+
+        <!--********** Footer Dropdown ***********-->
+        <i id="small-footer-menu" class="fas fa-bars">
+            <div id="small-footer">
+            <div id="small-footer-song">
+                <img src="images/starboyy.jpg">
+                <div class="footer-song-info">
+                    <span id="footer-song-name">Starboy</span>
+                    <span id="footer-singer">The Weeknd</span>
+                </div>
+                <div class="footer-icons">
+                    <i class="far fa-heart heart-icon"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+            </div>
+            <div id="small-song-control">
+                <div id="small-song-control-upper">
+                    <!-- <i class="fas fa-random"></i> -->
+                    <i class="fas fa-backward"></i>
+                    <i class="fas fa-play" id="play"></i>
+                    <i class="fas fa-forward"></i>
+                    <!-- <i class="fas fa-redo"></i> -->
+                </div>
+                <div id="small-song-control-lower">
+                    <span>2:05</span>
+                    <input type="range">
+                    <span>4:45</span>
+                </div>
+            </div>
+        </div>
+        </i>
+        <!--********** Footer Dropdown End ***********-->
+
+
+        <!--********** Footer Current Song ***********-->
+        <div id="footer-song">
+            <img src="images/starboyy.jpg">
+            <div class="footer-song-info">
+                <span id="footer-song-name">Starboy</span>
+                <span id="footer-singer">The Weeknd</span>
+            </div>
+            <div class="footer-icons">
+                <i class="far fa-heart heart-icon"></i>
+                <i class="fas fa-ban"></i>
+            </div>
+        </div>
+
+        <!--********** Footer Current Song Controls ***********-->
+
+        <div id="song-control">
+            <div id="song-control-upper">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-play" id="play"></i>
+                <i class="fas fa-forward"></i>
+                <i class="fas fa-redo"></i>
+            </div>
+            <div id="song-control-lower">
+                <span>2:05</span>
+                <input type="range">
+                <span>4:45</span>
+            </div>
+        </div>
+
+        <!--********** Footer Current Song Volume Controls ***********-->
+
+        <div id="volume-control">
+            <i class="fas fa-volume-down"></i>
+            <input type="range">
+            <i class="fas fa-volume-up"></i>
+        </div>
+
+
+
+        <div class="queue-open">
+            <label for="queue-chk">
+                <span>Queue</span>
+                <i class="fas fa-arrows-alt-v"></i>
+            </label>
+        </div>
+    </section>
+    
+</body>
+
+</html>
